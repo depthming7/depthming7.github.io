@@ -163,8 +163,10 @@
 	        
         </div>
       </div>
+	    
  <!--     <div class="col-md-5 col-sm-12">	-->
  <!--       <div class="my-3" id="map" style="width:100%;height:400px;"></div>	-->
+	    
       <div class="col-md-5 col-sm-12">
         <div class="my-3"><img class="img-fluid" src="images/sunsa_map.jpg" alt="Wedding Party" data-aos="fade-up" data-aos-duration="1500"/></div>
       </div>
@@ -217,7 +219,7 @@
   		
   		}); 
   
-
+<!--
         const locations = [
             { place:"전경련플라자", lat: 37.522420, lng: 126.920581 }
         ];
@@ -233,46 +235,11 @@
                     title: locations[i].place,
                     position: new naver.maps.LatLng(locations[i].lat, locations[i].lng),
                 });
-            }
-        
-        
-      //팝업 띄우기
-        function openPop() {
-            document.getElementById("popup_layer").style.display = "block";
-
-        }
-      
-        function openPopBride() {
-            document.getElementById("popup_layer2").style.display = "block";
-
-        }
-
-        //팝업 닫기
-        function closePop() {
-            document.getElementById("popup_layer").style.display = "none";
-        }
-        
-        //팝업 닫기
-        function closePopBride() {
-            document.getElementById("popup_layer2").style.display = "none";
-        }
-  
-        //복사하기 기능
-        function copy_to_clipboard(e) {    
-		
-        	 let copyText =  $(e).parent().children('input#myInput')[0];
-        	 
-        	 copyText.select();
-        	 copyText.setSelectionRange(0, 99999);
-        	 document.execCommand("Copy");
-        	 
-        	 toastr.success('계좌번호가 복사되었습니다.');
-       	}
-        
-
+            }  
+-->
+	      
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
- 
-    
+     
   </body>
 </html>
