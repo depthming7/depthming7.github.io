@@ -142,7 +142,7 @@ body {
 .ww-rsvp-detail {
 	background: url("../images/rsvp-img.jpg") no-repeat center center;
 	background-size: cover;
-	height: 500px;
+	height: 280px;
 /*	min-height: 500px;	*/
 	position: relative;
 }
