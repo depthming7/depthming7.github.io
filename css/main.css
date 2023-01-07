@@ -6,9 +6,10 @@ body {
 .ww-home-page {
 	background: url("../images/sunsa_paranoma.jpg") no-repeat center center;
 	background-size: cover;
-	height: 844px;
-/* 	min-height: 480px;
-	max-height: 1080px; */
+	height: 480px;
+/*	height: 844px;
+	min-height: 480px;
+	max-height: 1080px; 	*/
 }
 
 .ww-home-page .ww-wedding-announcement {
@@ -141,7 +142,8 @@ body {
 .ww-rsvp-detail {
 	background: url("../images/rsvp-img.jpg") no-repeat center center;
 	background-size: cover;
-	min-height: 500px;
+	height: 500px;
+/*	min-height: 500px;	*/
 	position: relative;
 }
 
